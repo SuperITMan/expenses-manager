@@ -28,8 +28,15 @@ plugins/
 plugins/android.json
 plugins/ios.json
 www/
+*.map
+app/src/**.js
+
 $RECYCLE.BIN/
 
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
+
+# Firebase
+firebase-debug.log
+src/app/credentials.ts
